@@ -302,7 +302,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &106964283
@@ -658,7 +658,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1111071072
@@ -787,7 +787,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1265709713
@@ -1065,7 +1065,7 @@ GameObject:
   - component: {fileID: 2083630105}
   - component: {fileID: 2083630104}
   m_Layer: 0
-  m_Name: MainMenuManager
+  m_Name: ModeSelectManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1080,7 +1080,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2083630103}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a8f037c9dfb1a344b5f4fed537cbe15, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ea7516030e643b197d9397231bee810, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mode: 0

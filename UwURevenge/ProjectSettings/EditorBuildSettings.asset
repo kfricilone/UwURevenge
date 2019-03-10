@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SpaceBattle.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Menu 3D.unity
+    guid: fa0913115ac1d4fba8b9d10280f4b04d
+  - enabled: 1
+    path: Assets/Scenes/MainMenuUwU.unity
+    guid: 31a374b9af9020d438288179a6754938
   m_configObjects: {}

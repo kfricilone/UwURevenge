@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenuManager : MonoBehaviour
+public class ModeSelectManager : MonoBehaviour
 {   
-    public static MainMenuManager instance;
-
+    public static ModeSelectManager instance;
+    public int mode = 0;
     void Awake()
     {
         DontDestroyOnLoad(gameObject);
@@ -20,8 +20,14 @@ public class MainMenuManager : MonoBehaviour
         }
     }
 
+    public void SetMode(int _mode)
+    {
+        mode = _mode;
+        StartGame();
+    }
+
     public void StartGame()
     {
-        SceneManager.LoadScene("MainMenuUwU");
+        SceneManager.LoadScene("Garage");
     }
 }

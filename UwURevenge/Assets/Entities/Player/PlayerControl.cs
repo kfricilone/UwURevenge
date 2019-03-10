@@ -10,7 +10,7 @@ public class PlayerControl : MonoBehaviour {
 
 	void Awake()
 	{
-		if(MainMenuManager.instance.mode == 1)
+		if(ModeSelectManager.instance.mode == 1)
 		{
 			this.enabled = false;
 		}
